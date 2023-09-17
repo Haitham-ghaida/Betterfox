@@ -247,7 +247,10 @@ user_pref("findbar.highlightAll", true);
  * START: MY OVERRIDES                                                      *
 ****************************************************************************/
 // Enter your personal prefs below this line:
-
+//sync
+user_pref("identity.fxaccounts.enabled", true);
+// PREF: restore search engine suggestions
+user_pref("browser.search.suggest.enabled", true);
 /****************************************************************************
  * END: BETTERFOX                                                           *
 ****************************************************************************/
